@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  vlog:
+    image: vlog
+    build:
+      context: .\VLog
+      dockerfile: Dockerfile
